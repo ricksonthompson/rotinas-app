@@ -5,7 +5,7 @@ App desktop MacOs + SwiftUI para registrar atividades do dia a dia.
 - O app fica na menu bar para facilitar a agilidade e acompanhamento das tasks.
 
 ## Tela Principal
-![banner](/assets/banking-cards-banner.png)
+![banner](/assets/rotinas-app-home.png)
 
 ## Persistência dos Dados
 Os dados são salvos em um banco de dados SQLITE em memória.
