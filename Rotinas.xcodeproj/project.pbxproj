@@ -11,6 +11,12 @@
 		0134284A2C5CA20300F658BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013428492C5CA20300F658BB /* ContentView.swift */; };
 		0134284C2C5CA20400F658BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0134284B2C5CA20400F658BB /* Assets.xcassets */; };
 		0134284F2C5CA20400F658BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0134284E2C5CA20400F658BB /* Preview Assets.xcassets */; };
+		01879B3F2C5D43E700438226 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01879B3E2C5D43E700438226 /* TaskStore.swift */; };
+		01879B412C5D43F500438226 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01879B402C5D43F500438226 /* DatabaseManager.swift */; };
+		01879B432C5D440900438226 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01879B422C5D440900438226 /* MenuBarView.swift */; };
+		01879B452C5D441800438226 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01879B442C5D441800438226 /* MainView.swift */; };
+		01879B472C5D463600438226 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01879B462C5D463600438226 /* CheckBoxView.swift */; };
+		01879B4A2C5D468B00438226 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 01879B492C5D468B00438226 /* SQLite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,11 @@
 		0134284B2C5CA20400F658BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0134284E2C5CA20400F658BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		013428502C5CA20400F658BB /* Rotinas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rotinas.entitlements; sourceTree = "<group>"; };
+		01879B3E2C5D43E700438226 /* TaskStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskStore.swift; path = ../../../../../.Trash/TaskStore.swift; sourceTree = "<group>"; };
+		01879B402C5D43F500438226 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseManager.swift; path = ../../../../../.Trash/DatabaseManager.swift; sourceTree = "<group>"; };
+		01879B422C5D440900438226 /* MenuBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBarView.swift; path = ../../../../../.Trash/MenuBarView.swift; sourceTree = "<group>"; };
+		01879B442C5D441800438226 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ../../../../../.Trash/MainView.swift; sourceTree = "<group>"; };
+		01879B462C5D463600438226 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01879B4A2C5D468B00438226 /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +64,11 @@
 		013428462C5CA20300F658BB /* Rotinas */ = {
 			isa = PBXGroup;
 			children = (
+				01879B462C5D463600438226 /* CheckBoxView.swift */,
+				01879B422C5D440900438226 /* MenuBarView.swift */,
+				01879B442C5D441800438226 /* MainView.swift */,
+				01879B3E2C5D43E700438226 /* TaskStore.swift */,
+				01879B402C5D43F500438226 /* DatabaseManager.swift */,
 				013428472C5CA20300F658BB /* RotinasApp.swift */,
 				013428492C5CA20300F658BB /* ContentView.swift */,
 				0134284B2C5CA20400F658BB /* Assets.xcassets */,
@@ -85,6 +102,9 @@
 			dependencies = (
 			);
 			name = Rotinas;
+			packageProductDependencies = (
+				01879B492C5D468B00438226 /* SQLite */,
+			);
 			productName = Rotinas;
 			productReference = 013428442C5CA20300F658BB /* Rotinas.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 0134283B2C5CA20300F658BB;
+			packageReferences = (
+				01879B482C5D468B00438226 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			productRefGroup = 013428452C5CA20300F658BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01879B472C5D463600438226 /* CheckBoxView.swift in Sources */,
+				01879B412C5D43F500438226 /* DatabaseManager.swift in Sources */,
+				01879B452C5D441800438226 /* MainView.swift in Sources */,
 				0134284A2C5CA20300F658BB /* ContentView.swift in Sources */,
 				013428482C5CA20300F658BB /* RotinasApp.swift in Sources */,
+				01879B3F2C5D43E700438226 /* TaskStore.swift in Sources */,
+				01879B432C5D440900438226 /* MenuBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +369,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01879B482C5D468B00438226 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01879B492C5D468B00438226 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01879B482C5D468B00438226 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0134283C2C5CA20300F658BB /* Project object */;
 }
